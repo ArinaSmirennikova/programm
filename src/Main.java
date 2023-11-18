@@ -11,7 +11,7 @@ public class Main {
         printer.append("some text 8", 530);
         printer.clear();
         printer.append("some text 23", "Договор", 312);
-        printer.append("some text 11");
+        printer.append("some text 0");
         printer.print();
         System.out.println(printer.getAllPrinteredPagesCount());
     }
